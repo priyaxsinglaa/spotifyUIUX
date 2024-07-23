@@ -1,0 +1,146 @@
+body{
+    font-family:'gotham';
+    margin: 0;
+    background-color: #191414; 
+}
+nav{
+    color: #1DB954;
+    background-color: #212121;
+    text-align: center;
+    font-size: 50px;
+    padding: 10px 10px 10px 10px;
+}
+nav .bi{
+    color: #1DB954;
+    background-color: #212121;
+    text-align: center;
+    font-size: 50px;
+    padding: 10px 10px 10px 10px;
+}
+.container {
+    width: 350px;
+    height: 450px;
+    top: 50%;
+    left: 55%;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: -250px;
+    /* background-color: hsl(0, 6%, 50%); */
+    border-radius: 12px;
+    overflow-y: scroll;
+}
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+
+.center{
+    display: grid;
+    place-items: center;
+    background-color: #1d1c1c;
+    /* border-radius: 12px; */
+}
+
+.center .cont{
+    font-weight: bold;
+    color: #ffff;
+}
+.center .cont:hover{
+    text-decoration: underline;
+    color: #ffff;
+    transition: .3s linear;
+    font-weight: 100;
+}
+.bi{
+    margin-right: 10px;
+    font-size: large;
+}
+
+.A{
+   
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    border-radius:20px;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    margin-bottom: 5px;
+    width: 300px;
+    height: 20px;
+    background-color: #2b2a2a;
+    color:#ffff;
+}
+.container .A:hover {
+    color: #ffff;
+    background-color: #414040;
+    transition: .3s linear;
+    text-decoration: underline;
+}
+
+/*///////////////////////////form//////////////////////////////////////////*/
+.input-grid{
+    display: grid;
+    color: #ffff;
+    cursor: pointer;
+}
+.form-label1{
+    color: #fff;
+    margin: 10px 0px 10px 5px;
+}
+.form-label2{
+    color: #fff;    
+    margin: 10px 0px 10px 5px;
+}
+.form-label1:hover, .form-label2:hover{
+    text-decoration: underline;
+    color: #ffff;
+    transition: .3s linear;
+    font-weight: 100;
+}
+.input{
+    color: #fff;
+    font-weight:bold ;
+    padding: 15px;
+    width: 300px;
+    border: none;
+    outline:none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #2b2a2a;
+    box-shadow: inset 0px 0px 8px #373636;
+}
+
+.input:nth-child(2)
+{
+    margin-bottom:15px
+
+}
+
+.form-down a{
+    text-decoration: underline;
+    color: #ffff;
+    transition: .3s linear;
+    font-weight: 100;
+}
+
+.form-down button{
+    color:#191414;
+    font-weight: bold;
+    background-color: #1DB954;
+    text-align: center;
+    width: 300px;
+    border: none;
+    margin:10px 20px 20px 10px;
+    margin-bottom: 20px;
+    padding: 12px;
+    font-size: 15px ;
+    border-radius: 20px;
+}
+.form-down button:hover{
+    background-color: #191414;
+    color: #fff;
+    transition: .3s linear;
+}
+.form-down .aDown{
+    margin-left: 80px;
+}

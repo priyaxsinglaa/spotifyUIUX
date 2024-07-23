@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="login.css">
+        <link rel="icon" type="image/png" href="logo.png">
+        <title>SpotifyLogin</title>
+    </head>
+    <body>
+        <nav>
+            <div>
+            <i class="bi bi-spotify"></i>Spotify</div></nav>
+        <div class="container">  
+         <div class="center">
+            <p class="cont">To Continue, log in to Spotify.</p>
+            <a href="https://www.facebook.com/login/" class="A"><i class="bi bi-facebook"></i>Continue with Facebook</a>
+            <a href="https://appleid.apple.com/auth/authorize?response_type=code&response_mode=form_post&client_id=com.spotify.accounts&state=AQBu162pBT2r2K1jCwUOAPLHrNxg9Wt8%2FUlJhyZc5mBZmsvDR2syIhw6u0hzOeSRDwd1XJVuudlAByd19kEskRgsnFGG3wE%2BGqI7PiJ%2BV7nKVD5PK6vFV4dgeV3RBN7iAtnCNnvRjTgPcmHlvYDXsaG8sjSDeqb9aa2mq2Nc1jnukgMxnE5VHOq3QyGIa7xJrepdhEU9DCeVYhNIHAaPKS%2Bm6CQaWbBUIqSfUtCUWvPvc0Rcec6dbsJRsCQh7%2BBbVt0tFpv0eebRbNTfA8T%2B7J15EcQ1veNPB%2FCH%2BWfn51wsApFnjChYypHy%2FY7xIqmBLf2xb78w8iZKu%2BE3a0fv%2BiekrKaiAA%3D%3D&scope=name+email&redirect_uri=https%3A%2F%2Faccounts.spotify.com%2Flogin%2Fapple%2Fredirect" class="A"><i class="bi bi-apple"></i>Continue with Apple</a>
+            <a href="https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?response_type=code&access_type=offline&client_id=1046568431490-ij1gi5shcp2gtorls09frkc56d4mjbe2.apps.googleusercontent.com&state=AQAmgBFlDObVUHOG076XdxLtLBgW6Xh3BRuzhhgwO%2F0LYoxEvUkMZ6KatgrqYXHDxYjiks8X6XQep7t1QyU5kOOHje0t8BkGNWeoRI72yR4Szstix1vrPKVwzk%2Fq65gH5HSY1lNxooW9ZRuwOliOxbr5aBKtoGndqGl9mWZ5%2F%2BBuxxxwoQX3ALumhu7ed2luG17vAAyF6bkBBNWs9Shw2bDbqASGaERdAIJzJb%2FTv2K5%2FDFwApTbcRPIFiXI%2B82USo2KE%2F57wQaelypVSwQWonsW3jPcBif%2F%2FeqwEBw2PSUS55JEM48aH6Lj%2F9k6A8U82ef3%2BbmuSOmHxk6jzi%2FqxAKzx10y%2BQ%3D%3D&scope=profile%20email%20openid&redirect_uri=https%3A%2F%2Faccounts.spotify.com%2Flogin%2Fgoogle%2Fredirect&service=lso&o2v=2&theme=glif&flowName=GeneralOAuthFlow" class="A"><i class="bi bi-google"></i>Continue with Google</a>
+            <a href="https://accounts.spotify.com/en/login/phone?continue=https%3A%2F%2Fopen.spotify.com%2F&flow_ctx=3d3be0a5-3360-40b7-8b2c-65ed7c2318e1:1707358597" class="A"><i class="bi bi-phone-fill"></i>Continue with Phone Number</a>
+        </div>
+        
+         <div class="center">
+            <form action="#" id="loginForm">
+                <div class="input-grid">
+                    <label for="email" class="form-label1">Email</label>
+                    <input 
+                        type="email" 
+                        class="input" 
+                        id="email" 
+                        name="email"
+                        placeholder="Email Address or Username" required>
+                        
+                    <label for="password" class="form-label2">Password</label>
+                    <div class="password-container">
+                    <input type="password" class="input" id="password" name="password"  placeholder="Password"  required>
+                    <i class="fas fa-eye" id="togglePassword">
+                    </i></div>
+                </div>
+                
+                <div class="form-down">
+                    <div class="for-check">
+                        <p>Forgot Your password?</p>
+                        
+                    </div>
+                    <button type="submit" >
+                        Login In
+                    </button>
+                    <p class="signUp">Don't have an account? <a href="signup.html" >Sign Up to Spotify</a></p>
+                </div>
+            </form>
+         </div>   
+         </div> 
+         <script src="app.js"></script>
+    </body>
+</html>
